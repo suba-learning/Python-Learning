@@ -1,0 +1,68 @@
+1. What is programming?
+    Programming is giving a set of instructions to a computer to execute.
+    It is process of telling computer which task to perform in order to solve a problem.
+
+2. What is coding?
+    Coding refers to writing instructions in a specific programming language.
+
+3. What is scripting?
+    Scripting is writing small programs, to automate repetitive tasks, to interact with other programs.
+
+ 4. What is difference between Programming vs. Coding vs. Scripting?
+     Coding: Writing instruction to solve a specific problem. Part of big Program
+     Scripting: Small programs, to automate repetitive tasks
+     Programming: full process of creating a software; Designing, Coding, Testing..
+
+5. What is testing?
+     Process of ensuring the Application meets the requirement; solves the intended problem.
+
+6. What is a test?
+    It is an activity to check particular functionality is behaving as expected.
+
+7. What is the difference between Testing and Test?
+    Testing: Overall activity of evaluating the software
+    Test: Specific instance or activity within the testing process; smaller unit of the larger testing process
+
+8. What is the common attribute or layer between Programming and Testing?
+    solving the same problem
+    Programming is writing the solution to a problem/Developing an Application.
+    Testing is ensuring the developed application solving the problem
+
+9. Where do you feel/experience difficulty in programming?
+    Can do smaller scripts
+    Writing a bigger programs - Designing reusable; robustness; Scalable
+
+
+10. Where do you feel/experience difficulty in testing?
+     Repeating the same task over and over
+     Understanding complexity of project; fearing of missing the gap
+
+
+
+Write a program to add digits 1 to 4.
+ 1. Iterate from 1 to 4
+ 2. As I iterate store the sum to a variable.
+ 3. Add the digit to the sum
+ 4. As I store, I need to print the so far sum or value of a variable
+ 5. I need to stop after digit 4.
+ 6. Here, the input is fixed that is -- 1, 2 ,3 4.
+ 7. I assume, all are positive numbers
+
+
+  for(i=1; i<=4; i++)
+    int sumOfDigits;
+    print sumOfDigits; //0; check do I see 0 or what?
+    sumOfDigits = i + 1;
+
+questions
+    - is it a good practice to initialize sumOfDigits to 0 here?
+    - when to print?
+    - how to debug?
+    - how do I know, I have found the solution?
+
+
+Answers:
+1. No, When variable is declared & Initialized inside the loop, it is re-initialized on each iteration.
+2. Can print inside the loop, this helps in debugging. Once the program is correctly written, can print outside the loop
+3. Print statement will help for debugging
+4. We can run the code for multiple times for various known values.
